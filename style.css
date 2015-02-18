@@ -1,19 +1,16 @@
 .sidebar{
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  background: #212121;
-  color: #fff;
+  	background: #212121;
+  	color: #fff;
 }
 .header{
-  text-align: right;
-  margin: 2em 2em 0;
-  top: auto;
+	text-align: center;
+	top: auto;
+	margin: 3em auto;
 }
 .brand-title{
-  text-transform: uppercase;
-  margin: 0;
-  opacity: 0.87;
+  	text-transform: uppercase;
+  	margin: 0;
+  	opacity: 0.87;
 }
 .brand-tagline{
   font-weight: 300;
@@ -21,6 +18,14 @@
 }
 .avatarContainer{
   margin: 2em;
+}
+.avatar{
+	width: 200px;
+}
+.nav-list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 .nav-item{
   display: inline-block;
@@ -37,4 +42,39 @@
 .nav-item a:hover{
   background: #fff;
   color: #000;
+}
+.content{
+	padding: 2em 1em 0;
+}
+.hlColor1{
+	color: orange;
+}
+.hlColor2{
+	color: green;
+}
+.hlColor3{
+	color: yellow;
+}
+.hlColor4{
+	color: blue;
+}
+.hlColor5{
+	color: red;
+}
+@media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 4em 1em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
 }
