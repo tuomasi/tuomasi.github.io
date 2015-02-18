@@ -1,20 +1,27 @@
+body{
+  margin: 0;
+}
 .sidebar{
-  	background: #212121;
-  	color: #fff;
+	background: #212121;
+	color: #fff;
+  text-align: left;
 }
 .header{
-	text-align: center;
-	top: auto;
-	margin: 3em auto;
+  display: none;
+  text-align: center;
+  top: auto;
+  margin: 0;
 }
 .brand-title{
-  	text-transform: uppercase;
-  	margin: 0;
-  	opacity: 0.87;
+  text-transform: uppercase;
+  margin: 0;
+  opacity: 0.87;
 }
 .brand-tagline{
   font-weight: 300;
-  opacity: 0.54;
+  color: #9e9e9e;
+  text-transform: capitalize;
+  line-height: 1.2;
 }
 .avatarContainer{
   margin: 2em;
@@ -23,58 +30,48 @@
 	width: 200px;
 }
 .nav-list{
-	margin: 0;
+	margin: 1em 0 0;
 	padding: 0;
 	list-style: none;
 }
-.nav-item{
-  display: inline-block;
-}
+
 .nav-item a{
-  background: transparent;
-  border: thin solid #fff;
-  color: #fff;
-  margin-top: 1em;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  font-size: 85%
+  text-decoration: none;
+  font-weight: bold;
+  color: #eeeeee;
 }
 .nav-item a:hover{
-  background: #fff;
-  color: #000;
+  text-decoration: underline;
+}
+.navToggle{
+  display: block;
+  text-align: center;
+  padding: .5em 0;
+  transition: all 0.6s linear;
+}
+.navToggle:hover{
+  cursor: pointer;
+}
+.navToggleUp{
+  transform:rotate(180deg);
 }
 .content{
 	padding: 2em 1em 0;
 }
-.hlColor1{
-	color: orange;
+.nav-item a.current{
+  color: orange;
 }
-.hlColor2{
-	color: green;
-}
-.hlColor3{
-	color: yellow;
-}
-.hlColor4{
-	color: blue;
-}
-.hlColor5{
-	color: red;
-}
-@media (min-width: 48em) {
-    .content {
-        padding: 2em 3em 0;
-        margin-left: 25%;
-    }
-
-    .header {
-        margin: 4em 1em 0;
-        text-align: right;
-    }
-
-    .sidebar {
-        position: fixed;
-        top: 0;
-        bottom: 0;
-    }
+@media (min-width: 550px) {
+  .navToggle{
+    display: none;
+  }
+  .header{
+    display: block !important;
+  }
+  .nav-item{
+    display: inline-block;
+  }
+  .nav-item+.nav-item:before{
+    content: "|";
+  }
 }
