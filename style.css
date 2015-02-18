@@ -1,38 +1,40 @@
-body{
-  font-family: 'Ubuntu', sans-serif !important;
-  background-color: gold;
-}
-pre{
-  font-size: 130%;
-}
-#header{
-  padding: 20px;
-  border-bottom: 5px solid gold;
-  background: #000;
-}
-#headerText{
-  color: gold;
-  font-size: 30px;
-  font-weight: bold;
-}
-.screen{
-  height: 100vh;
-
-  position: relative;
-}
-.vCenter{
-  display: flex;
-  align-items: center;
-}
-.welcome{
-  padding-top: 20px;
-}
-.next{
-  position: absolute !important;
+.sidebar{
+  position: fixed;
+  top: 0;
   bottom: 0;
-  margin-bottom: 10px;
+  background: #212121;
+  color: #fff;
 }
-.navArrow{
-  font-size: 26px;
-  color: black;
+.header{
+  text-align: right;
+  margin: 2em 2em 0;
+  top: auto;
+}
+.brand-title{
+  text-transform: uppercase;
+  margin: 0;
+  opacity: 0.87;
+}
+.brand-tagline{
+  font-weight: 300;
+  opacity: 0.54;
+}
+.avatarContainer{
+  margin: 2em;
+}
+.nav-item{
+  display: inline-block;
+}
+.nav-item a{
+  background: transparent;
+  border: thin solid #fff;
+  color: #fff;
+  margin-top: 1em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 85%
+}
+.nav-item a:hover{
+  background: #fff;
+  color: #000;
 }
