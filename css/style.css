@@ -1,8 +1,8 @@
 body{
 	background-color: #FFFAFA;
-	color: #444;
+	color: #333;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 .sidebar{
   	text-align: left;
@@ -15,14 +15,20 @@ body{
 }
 .h1{
 	font-size: 2.5rem;
+	background: -webkit-linear-gradient(#555, #222);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+}
+.h1, .h2, .h3, .h4, .h5 {
+	font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 .headerToggle{
 	display: none;
 }
 .brand-title{
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin: 0;
-  opacity: 0.87;
 }
 .brand-tagline{
   font-weight: 300;
@@ -65,12 +71,16 @@ body{
   transform:rotate(180deg);
 }
 .content{
-	padding: 2em 1em 0;
+	padding: 2em 1em;
 }
 .nav-item a.current{
   color: #d35400;
 }
 @media (min-width: 550px) {
+	.content{
+		max-width: 1000px;
+		margin: 0 auto;
+	}
   .h1{
   	font-size: 3.5em;
   }
