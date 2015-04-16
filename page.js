@@ -12,7 +12,7 @@ $(function() {
     }
   });
   $(".navToggle").on("click", function(){
-    $(".headerToggle").slideToggle("slow");
+    $(".headerToggle").toggle();
     $(this).toggleClass("navToggleUp");
   });
 });

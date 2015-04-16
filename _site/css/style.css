@@ -8,9 +8,12 @@ body{
 	color: #333;
   	margin: 0;
 	font-family: "Open Sans", sans-serif;
-	font-size: 1.6rem;
+	font-size: 2rem;
 	line-height: 1.6;
 	font-weight: 400;
+}
+a{
+	text-decoration: none;
 }
 .headerWrapper{
   	text-align: left;
@@ -22,9 +25,13 @@ body{
   text-align: center;
   top: auto;
   margin: 0;
+  padding: 0.5rem;
+}
+.headerTop{
+	overflow: hidden;
 }
 .h1{
-	font-size: 2.5rem;
+	font-size: 2.75rem;
 	background: -webkit-linear-gradient(#555, #222);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -38,28 +45,38 @@ body{
 }
 .brand-title{
 	color: #fff;
-  text-transform: capitalize;
-  margin: 0;
+  	text-transform: capitalize;
+  	margin: 0;
 	background: none;
+	float: left;
 	-webkit-text-fill-color: initial;
 }
 .brand-tagline{
   font-weight: 300;
   text-transform: capitalize;
   line-height: 1.2;
+  text-align: left;
+  width: 50%;
+  float: left;
+  margin: 1.25rem 0 0;
 }
 .aboutPhoto{
 	width: 200px;
 	float: right;
 	margin: 0 0 4rem 4rem;
 }
+.navWrapper{
+	width: 50%;
+	display: inline-block;
+	text-align: right;
+}
 .nav-list{
-	margin: 1em 0 0;
+	margin: 0.75rem 0 0;
 	padding: 0;
 	list-style: none;
 }
 .nav-item{
-	margin: 1.5em 0;
+	margin: 0.5rem 0;
 }
 .nav-item a{
   text-decoration: none;
@@ -71,20 +88,17 @@ body{
 }
 .navToggle{
 	font-size: 3rem;
-  display: block;
-  text-align: center;
-  padding: .5em 0;
-  transition: all 0.6s linear;
+	float: right
 }
 .navToggle:hover{
-  cursor: pointer;
+  	cursor: pointer;
 	color: #f39c12;
 }
 .navToggleUp{
   transform:rotate(180deg);
 }
 .content{
-	padding: 2em 1em;
+	padding: 2rem 1rem;
 }
 .nav-item a.active{
   color: #f39c12;
@@ -131,6 +145,10 @@ body{
 .text-center{
 	text-align: center;
 }
+.vCenter{
+	display: flex;
+	align-items: center;
+}
 .contentLink{
   text-decoration: none;
   font-weight: bold;
@@ -162,6 +180,11 @@ body{
 	body{
 		font-size: 1.8rem;
 	}
+	.brand-tagline, .navWrapper{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
 	.content{
 		max-width: 800px;
 		margin: 0 auto;
@@ -169,6 +192,10 @@ body{
 	}
 	.h1{
 		font-size: 4.5rem;
+	}
+	.brand-title{
+		float: none;
+		text-align: center;
 	}
 	.navToggle{
 		display: none;
