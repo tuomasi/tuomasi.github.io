@@ -2,6 +2,10 @@ html{
 	font-size: 50%;
 	position: relative;
 	min-height: 100%;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 body{
 	background-color: #FFFAFA;
@@ -18,8 +22,8 @@ a{
 .headerWrapper{
   	text-align: left;
   	box-shadow: 0px 1px 5px;
-		background-color: #333;
-		color: #fff;
+	background-color: #333;
+	color: #fff;
 }
 .header{
   text-align: center;
@@ -59,6 +63,7 @@ a{
   width: 50%;
   float: left;
   margin: 1.25rem 0 0;
+  padding: 1rem;
 }
 .aboutPhoto{
 	width: 200px;
@@ -69,6 +74,7 @@ a{
 	width: 50%;
 	display: inline-block;
 	text-align: right;
+	border-left: thin solid white;
 }
 .nav-list{
 	margin: 0.75rem 0 0;
@@ -184,6 +190,8 @@ a{
 		width: 100%;
 		float: none;
 		text-align: center;
+		padding: 0;
+		border: none;
 	}
 	.content{
 		max-width: 800px;
