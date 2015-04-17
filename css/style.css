@@ -111,6 +111,7 @@ a{
 }
 .blogList{
 	list-style: none;
+	padding: 0;
 }
 .blogListItem{
 	border: thin solid #444;
