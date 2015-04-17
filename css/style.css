@@ -164,6 +164,25 @@ a{
 .contentLink:hover{
 	text-decoration: underline;
 }
+
+.portfolioList{
+	list-style: none;
+	padding: 0;
+}
+.portfolioListItem{
+	height: 10rem;
+	width: 100%;
+	border: thin solid #444;
+	overflow: hidden;
+	position: relative;
+}
+.portfolioListItemAnchor{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 /*.background{
 	position: relative;
 }

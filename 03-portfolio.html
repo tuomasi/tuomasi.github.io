@@ -7,5 +7,15 @@ permalink: "portfolio.html"
 
     <div class="content">
     	<h1 class="h1">Portfolio</h1>
+
+		<ul class="portfolioList">
+			{% for project in site.portfolio %}
+		        <li class="portfolioListItem">
+		          <a href="{{ project.url }}" class="portfolioListItemAnchor">{{ project.title }}
+		            
+		          </a>
+		        </li>
+		    {% endfor %}
+		</ul>
     </div>
   </div>

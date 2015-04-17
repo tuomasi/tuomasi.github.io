@@ -8,5 +8,11 @@ url: "http://tuomasi.github.io" # the base hostname & protocol for your site
 twitter_username:
 github_username:  tuomasi
 
+
 # Build settings
 markdown: kramdown
+
+collections:
+    portfolio:
+        output: true
+        permalink: "/portfolio/:path/"
