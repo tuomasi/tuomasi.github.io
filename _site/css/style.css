@@ -174,7 +174,7 @@ a{
 	height: 10rem;
 	width: 100%;
 	border: thin solid #444;
-	padding: 0.5rem;
+
 }
 .portfolioListItem:not(:last-child){
 	margin-bottom: 2rem;
@@ -183,6 +183,8 @@ a{
 .portfolioListItemAnchor{
 	display: block;
 	height: 100%;
+	padding: 0.5rem;
+	background-size: cover;
 }
 
 /*.background{
