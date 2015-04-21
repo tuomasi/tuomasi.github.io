@@ -174,7 +174,7 @@ a{
 	height: 10rem;
 	width: 100%;
 	border: thin solid #444;
-
+	position: relative;
 }
 .portfolioListItem:not(:last-child){
 	margin-bottom: 2rem;
@@ -183,9 +183,29 @@ a{
 .portfolioListItemAnchor{
 	display: block;
 	height: 100%;
-	padding: 0.5rem;
 	background-size: cover;
+	font-size: 3rem;
 }
+.portfolioListItemTitle, .portfolioListItemPicture{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.portfolioListItemPicture{
+	opacity: 0.1;
+}
+.portfolioListItemTitle{
+	z-index: 10;
+	text-align: center;
+	font-weight: 800;
+}
+.portfolioListItemAnchor:hover .portfolioListItemPicture{
+	opacity: 1;
+}
+.portfolioListItemAnchor:hover .portfolioListItemTitle{
+	z-index: 0;
+}
+
 
 /*.background{
 	position: relative;

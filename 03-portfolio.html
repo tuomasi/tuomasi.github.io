@@ -11,8 +11,9 @@ permalink: "portfolio.html"
 		<ul class="portfolioList">
 			{% for project in site.portfolio %}
 		        <li class="portfolioListItem">
-		          <a href="{{ project.url }}" style="background-image: url('{{project.linkIcon}}')" class="portfolioListItemAnchor">{{ project.title }}
-		            
+		          <a href="{{ project.url }}"  class="portfolioListItemAnchor">
+		          	<span class="portfolioListItemTitle"> {{ project.title }} </span>
+		          	<div class="portfolioListItemPicture" style="background-image: url('{{project.linkIcon}}')"></div>
 		          </a>
 		        </li>
 		    {% endfor %}
