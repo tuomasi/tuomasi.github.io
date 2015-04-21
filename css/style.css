@@ -18,6 +18,7 @@ body{
 }
 a{
 	text-decoration: none;
+	color: #444;
 }
 .headerWrapper{
   	text-align: left;
@@ -173,16 +174,17 @@ a{
 	height: 10rem;
 	width: 100%;
 	border: thin solid #444;
-	overflow: hidden;
-	position: relative;
+	padding: 0.5rem;
+}
+.portfolioListItem:not(:last-child){
+	margin-bottom: 2rem;
+
 }
 .portfolioListItemAnchor{
 	display: block;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	height: 100%;
 }
+
 /*.background{
 	position: relative;
 }
