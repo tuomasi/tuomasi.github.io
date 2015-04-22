@@ -12,6 +12,7 @@ $(function() {
     }
   });
   $(".navToggle").on("click", function(){
+    console.log("test");
     $(".headerToggle").toggle();
     $(this).toggleClass("navToggleUp");
   });

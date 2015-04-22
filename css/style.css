@@ -75,7 +75,7 @@ a{
 	width: 50%;
 	display: inline-block;
 	text-align: right;
-	border-left: thin solid white;
+	border-left: thin solid #444;
 }
 .nav-list{
 	margin: 0.75rem 0 0;
@@ -106,6 +106,7 @@ a{
 }
 .content{
 	padding: 2rem 1rem;
+	margin-bottom: 8rem;
 }
 .nav-item a.active{
   color: #f39c12;
@@ -142,7 +143,10 @@ a{
 	width: 100%;
 	/*background-color: #333;
 	color: #fff;*/
+	border-top: thin solid #333;
 	text-align: center;
+	margin-top: 2rem;
+	font-size: 1.75rem;
 }
 .pull-right{
 	float: right;
@@ -183,7 +187,6 @@ a{
 .portfolioListItemAnchor{
 	display: block;
 	height: 100%;
-	background-size: cover;
 	font-size: 3rem;
 }
 .portfolioListItemTitle, .portfolioListItemPicture{
@@ -193,6 +196,7 @@ a{
 }
 .portfolioListItemPicture{
 	opacity: 0.1;
+	background-size: cover;
 }
 .portfolioListItemTitle{
 	z-index: 10;
