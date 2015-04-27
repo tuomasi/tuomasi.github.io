@@ -175,7 +175,7 @@ a{
 	padding: 0;
 }
 .portfolioListItem{
-	height: 10rem;
+	/*height: 10rem;*/
 	width: 100%;
 	border: thin solid #444;
 	position: relative;
@@ -188,6 +188,11 @@ a{
 	display: block;
 	height: 100%;
 	font-size: 3rem;
+	height: 10rem;
+	transition: height 0.5s;
+}
+.portfolioListItemAnchor:hover{
+	height: 25rem;
 }
 .portfolioListItemTitle, .portfolioListItemPicture{
 	position: absolute;
@@ -203,12 +208,15 @@ a{
 	text-align: center;
 	font-weight: 800;
 }
+
 .portfolioListItemAnchor:hover .portfolioListItemPicture{
 	opacity: 1;
 }
 .portfolioListItemAnchor:hover .portfolioListItemTitle{
 	z-index: 0;
 }
+
+
 
 
 /*.background{
