@@ -191,9 +191,6 @@ a{
 	height: 10rem;
 	transition: height 0.5s;
 }
-.portfolioListItemAnchor:hover{
-	height: 25rem;
-}
 .portfolioListItemTitle, .portfolioListItemPicture{
 	position: absolute;
 	width: 100%;
@@ -273,6 +270,9 @@ a{
 	}
 	.nav-item+.nav-item:before{
 		content: "|";
+	}
+	.portfolioListItemAnchor:hover{
+		height: 25rem;
 	}
 }
 
