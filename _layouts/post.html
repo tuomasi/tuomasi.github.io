@@ -4,8 +4,8 @@ layout: default
 <div class="post content">
 
   <header class="post-header">
-    <p class="post-meta">By {% if page.author %}{{ page.author }}{% endif %}, {{ page.date | date: "%b %-d, %Y" }}{% if page.meta %}{{ page.meta }}{% endif %}</p>
     <h1 class="post-title h1">{{ page.title }}</h1>
+    <p class="post-meta">- By {% if page.author %}{{ page.author }}{% endif %}, {{ page.date | date: "%b %-d, %Y" }}{% if page.meta %}{{ page.meta }}{% endif %}</p>
   </header>
 
   <article class="post-content">
