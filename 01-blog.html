@@ -1,0 +1,21 @@
+---
+layout: default
+title: Thomas Brunner - Blog
+linkName: Blog
+permalink: "blog.html"
+---
+
+    <div class="content">
+      <h1 class="h1">Blog</h1>
+
+      <ul class="blogList">
+        {% for post in site.posts %}
+        <li class="blogListItem">
+          <a href="{{ post.url }}" class="blogListItemAnchor">{{ post.title }}
+            <span class="pull-right">{{ post.date | date: "%b %-d, %Y" }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
