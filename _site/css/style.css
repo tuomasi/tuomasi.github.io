@@ -43,7 +43,7 @@ a{
 	font-weight: 700;
 }
 .content .h1{
-	font-size: 4rem;
+	font-size: 5rem;
 	text-align: center;
 }
 .h1, .h2, .h3, .h4, .h5 {
@@ -236,6 +236,21 @@ a{
 }
 
 
+
+
+
+.projectTitle{
+	margin-bottom: 0;
+}
+.projectContext{
+	display: block;
+	text-align: center;
+}
+.projectContent, .projectScreenshots{
+	margin-bottom: 7.5rem;
+}
+
+
 /*.background{
 	position: relative;
 }
@@ -271,7 +286,7 @@ a{
 		margin: 0 auto;
 		padding: 5rem;
 	}
-	.content .h1{
+	.content .h1, .content .h2{
 		text-align: left;
 	}
 	.h1{
@@ -296,6 +311,9 @@ a{
 	}
 	.portfolioListItemAnchor:hover{
 		height: 25rem;
+	}
+	.projectContext{
+		text-align: left;
 	}
 }
 
