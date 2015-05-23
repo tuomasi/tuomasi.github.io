@@ -16,3 +16,17 @@ collections:
     portfolio:
         output: true
         permalink: "/portfolio/:path/"
+
+
+exclude: [
+  .git,
+  .gitignore,
+  .DS_Store,
+  CNAME,
+  scss,
+  .sass-cache,
+  package.json, 
+  Gruntfile.js, 
+  node_modules, 
+  readme.md
+]

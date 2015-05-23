@@ -1,0 +1,25 @@
+.blogList{
+	list-style: none;
+	padding: 0;
+}
+.blogListItem{
+	border: thin solid #444;
+	/*background-color: #fff;*/
+	margin-bottom: 2rem;
+	overflow: hidden;
+}
+.blogListItemAnchor:hover{
+	background-color: #333;
+	color: #f39c12;
+}
+.blogListItemAnchor{
+	text-decoration: none;
+	/*color: #333;*/
+	font-weight: bold;
+	display: block;
+	padding: 1rem;
+	font-size: 2rem;
+}
+.blogListItemAnchor span{
+	font-weight: 400;
+}

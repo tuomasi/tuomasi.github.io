@@ -9,13 +9,13 @@
   <meta name="description" content="Personal web site of Thomas Brunner, graduate from the University of St Andrews and the Technical University of Munich.
 ">
 
-  <link rel="icon" type="image/png" href="/images/favicon32.png">
+  <link rel="icon" type="image/png" href="/assets/images/favicon32.png">
 
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="/css/icons.css">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/global.css">
 
 </head>
 
@@ -35,6 +35,19 @@
 
 <div class="headerWrapper">
   <header class="header">
+    <div class="customiseContainer" hidden>
+      <span class="themeContainer" hidden>
+        <label for="theme">Theme: </label>
+        <select name="theme" id="theme">
+          <option value="light" data-background-color="#fff" data-color="#333" selected>Light</option>
+          <option value="dark" data-background-color="#333" data-color="#fff">Dark</option>
+          <option value="gold" data-background-color="gold" data-color="#333">Gold</option>
+        </select>
+        <input type="button" value="apply" class="button" id="applyTheme">
+      </span>
+      <span class="theme funct">Theme</span>
+      <span class="hideHeader funct">Hide</span>
+    </div>
     <div class="headerTop">
       <a href="/">
         <h1 class="brand-title h1">Thomas Brunner</h1>
@@ -171,14 +184,14 @@
   <footer class="footer">
     <div>
       <span class="footerText">
-        &copy;2015 Thomas Brunner. Hosted on GitHub. Powered by Jekyll. 
+        &copy;2015 Thomas Brunner. Hosted on GitHub Pages. Powered by Jekyll. 
       </span>
     </div>
   </footer>
 
 
   <script src="https://code.jquery.com/jquery-1.11.2.min.js" defer></script>
-  <script src="/page.js" defer></script>
+  <script src="/js/site.js" defer></script>
 
 </body>
 </html>

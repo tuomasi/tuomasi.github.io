@@ -1,5 +1,18 @@
 <div class="headerWrapper">
   <header class="header">
+    <div class="customiseContainer" hidden>
+      <span class="themeContainer" hidden>
+        <label for="theme">Theme: </label>
+        <select name="theme" id="theme">
+          <option value="light" data-background-color="#fff" data-color="#333" selected>Light</option>
+          <option value="dark" data-background-color="#333" data-color="#fff">Dark</option>
+          <option value="gold" data-background-color="gold" data-color="#333">Gold</option>
+        </select>
+        <input type="button" value="apply" class="button" id="applyTheme">
+      </span>
+      <span class="theme funct">Theme</span>
+      <span class="hideHeader funct">Hide</span>
+    </div>
     <div class="headerTop">
       <a href="/">
         <h1 class="brand-title h1">Thomas Brunner</h1>

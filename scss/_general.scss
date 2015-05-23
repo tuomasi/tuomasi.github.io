@@ -1,0 +1,110 @@
+// BREAKPOINTS
+$breakpoints: (
+  "medium" : "(min-width: 550px)"
+) !default;
+
+@mixin breakpoint($point) {
+  $query: map-get($breakpoints, $point);
+
+  @media #{$query} {
+    @content;
+  }
+}
+
+
+html{
+	font-size: 50%;
+	position: relative;
+	min-height: 100%;
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+	/*background-color: #FFFAFA;*/
+	color: #333;
+  	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	font-size: 2rem;
+	line-height: 1.6;
+	font-weight: 400;
+}
+a{
+	text-decoration: none;
+	color: #444;
+}
+
+.h1{
+	font-size: 2.75rem;
+	background: -webkit-linear-gradient(#555, #222);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+}
+.content .h1{
+	font-size: 5rem;
+}
+.content .h1:not(.post-title){
+	text-align: center;
+}
+.h1, .h2, .h3, .h4, .h5 {
+	font-family: "Open Sans Condensed", Arial, sans-serif;
+}
+
+.aboutPhoto{
+	width: 200px;
+	float: right;
+	margin: 0 0 4rem 4rem;
+}
+
+.content{
+	padding: 2rem 1rem;
+	margin-bottom: 8rem;
+}
+
+.contentLink{
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+}
+.contentLink:hover{
+	text-decoration: underline;
+}
+
+.button{
+	background-color: #fff;
+	border: thin solid #444;
+	border-radius: 0.5rem;
+	padding: 0.25rem 0.5rem;
+}
+
+.button:hover{
+	background-color: #f0f0f0;
+}
+
+
+@include breakpoint(medium){
+	html{
+		font-size: 62.5%;
+	}
+	body{
+		font-size: 1.8rem;
+	}
+	.content{
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 5rem;
+	}
+	.content .h1, .content .h2{
+		text-align: left !important;
+	}
+	.h1{
+		font-size: 4.5rem;
+	}
+}
+
+
+
+
+

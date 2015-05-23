@@ -1,0 +1,64 @@
+.headerWrapper{
+  	text-align: left;
+  	box-shadow: 0px 1px 5px;
+	/*background-color: #333;
+	color: #fff;*/
+}
+.header{
+  text-align: center;
+  top: auto;
+  margin: 0;
+  padding: 0.5rem;
+}
+.headerTop{
+	overflow: hidden;
+}
+.headerToggle{
+	display: none;
+}
+.brand-title{
+	/*color: #fff;*/
+  	text-transform: capitalize;
+  	margin: 0;
+	background: none;
+	float: left;
+	-webkit-text-fill-color: initial;
+}
+.brand-tagline{
+  font-weight: 300;
+  text-transform: capitalize;
+  line-height: 1.2;
+  text-align: left;
+  width: 50%;
+  float: left;
+  margin: 1.25rem 0 0;
+  padding: 1rem;
+}
+
+
+@include breakpoint(medium){
+	.brand-tagline{
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding: 0;
+		border: none;
+	}
+	
+	.brand-title{
+		float: none;
+		text-align: center;
+	}
+
+	.headerToggle{
+		display: block !important;
+	}
+
+	.header:hover .customiseContainer{
+		opacity: 1;
+	}
+
+	#applyTheme{
+		margin-left: 0.5rem;
+	}
+}

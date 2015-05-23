@@ -1,0 +1,15 @@
+.projectTitle{
+	margin-bottom: 0;
+}
+.projectContext{
+	display: block;
+	text-align: center;
+}
+.projectContent, .projectScreenshots{
+	margin-bottom: 7.5rem;
+}
+@include breakpoint(medium){
+	.projectContext{
+		text-align: left;
+	}
+}
