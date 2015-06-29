@@ -11,6 +11,9 @@ $(function() {
       }
     }
   });
+
+  $("form.wufoo header.info").remove();
+
   $(".navToggle").on("click", function(){
     $(".headerToggle").toggle();
     $(this).toggleClass("navToggleUp");
