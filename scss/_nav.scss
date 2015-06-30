@@ -24,16 +24,15 @@
   text-decoration: underline;
 }
 .navToggle{
-	font-size: 3rem;
 	float: right
 }
 .navToggle:hover{
-  	cursor: pointer;
+  cursor: pointer;
 	color: #f39c12;
 }
-.navToggleUp{
+/* .navToggleUp{
   transform:rotate(180deg);
-}
+} */
 
 @include breakpoint(medium){
 	.nav{

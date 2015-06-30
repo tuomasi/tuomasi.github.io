@@ -16,7 +16,8 @@ $(function() {
 
   $(".navToggle").on("click", function(){
     $(".headerToggle").toggle();
-    $(this).toggleClass("navToggleUp");
+    $(this).toggleClass("fa-chevron-circle-down");
+    $(this).toggleClass("fa-chevron-circle-up");
   });
   $(".hideHeader").on("click", function(){
     $(".brand-tagline, .navWrapper").toggle();
