@@ -22,11 +22,11 @@ The purpose of this site is, essentially, three-fold:
 
 2. **Sharing**
 
-	At the same time I intend to share my experiences and thoughts on all those things I deem worth sharing. This might include life lessons, travel reports or general ideas and questions.
+	At the same time I intend to share, next to information about myself in the form of a CV or portfolio, my experiences and thoughts on all those things I deem worth sharing. This might include life lessons, travel reports or general ideas and questions.
 
 3. **Connect**
 
-	Lastly, and maybe even most importantly, I would be happy if you find the time to contact me. 
+	Lastly, and maybe even most importantly, I would be happy if you find the time to contact me. After all, I believe it is the interaction with others that makes us human beings and that allows us to gain the most valuable insights.
 
 Enjoy your stay and have a good day!
 
