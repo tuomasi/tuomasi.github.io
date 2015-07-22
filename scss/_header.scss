@@ -1,64 +1,73 @@
-.headerWrapper{
+.header-wrapper{
   	text-align: left;
   	box-shadow: 0px 1px 5px;
-	/*background-color: #333;
-	color: #fff;*/
 }
 .header{
   text-align: center;
-  top: auto;
   margin: 0;
   padding: 0.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  // border-bottom: thin solid #444;
+  box-shadow: #444 0px 1px 3px 0px;
 }
-.headerTop{
+.header__top{
 	overflow: hidden;
 }
-.headerToggle{
+.header__toggle{
 	display: none;
 }
-.brand-title{
-	/*color: #fff;*/
+.header__top__title{
   	text-transform: capitalize;
   	margin: 0;
 	background: none;
 	float: left;
 	-webkit-text-fill-color: initial;
 }
-.brand-tagline{
-  font-weight: 300;
-  text-transform: capitalize;
-  line-height: 1.2;
-  text-align: left;
-  width: 50%;
-  float: left;
-  margin: 1.25rem 0 0;
-  padding: 1rem;
+.header__tags{
+  // font-weight: 300;
+  // text-transform: capitalize;
+  // line-height: 1.2;
+  // text-align: left;
+  // width: 50%;
+  // float: left;
+  // margin: 1.25rem 0 0;
+  // padding: 1rem;
+  display: none;
 }
 
 
 @include breakpoint(medium){
-	.brand-tagline{
-		width: 100%;
-		float: none;
+	.header{
+		position: inherit;
+		
+	}
+	.header__tags{
+		display: block;
+		text-transform: capitalize;
 		text-align: center;
 		padding: 0;
 		border: none;
 	}
 	
-	.brand-title{
+	.header__top__title{
 		float: none;
 		text-align: center;
 	}
 
-	.headerToggle{
+	.header__toggle{
 		display: block !important;
 	}
 
-	.header:hover .customiseContainer{
+	.header:hover .header__customise{
 		opacity: 1;
 	}
 
-	#applyTheme{
+	#apply-theme{
 		margin-left: 0.5rem;
 	}
 }

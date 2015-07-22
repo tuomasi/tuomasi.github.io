@@ -1,6 +1,6 @@
 // BREAKPOINTS
 $breakpoints: (
-  "medium" : "(min-width: 550px)"
+  "medium" : "(min-width: 580px)"
 ) !default;
 
 @mixin breakpoint($point) {
@@ -13,7 +13,7 @@ $breakpoints: (
 
 
 html{
-	font-size: 50%;
+	font-size: 62.5%;
 	position: relative;
 	min-height: 100%;
 	box-sizing: border-box;
@@ -60,6 +60,7 @@ a{
 
 .content{
 	padding: 2rem 1rem;
+	margin-top: 3rem;
 	margin-bottom: 8rem;
 }
 

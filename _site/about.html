@@ -35,59 +35,67 @@
 
 </script>
 
-<div class="headerWrapper">
+<div class="header-wrapper">
   <header class="header">
-    <div class="customiseContainer" hidden>
-      <span class="themeContainer" hidden>
+
+    <div class="header__customise" hidden>
+      <span class="header__customise__theme" hidden>
         <label for="theme">Theme: </label>
         <select name="theme" id="theme">
           <option value="light" data-background-color="#fff" data-color="#333" selected>Light</option>
           <option value="dark" data-background-color="#333" data-color="#fff">Dark</option>
           <option value="gold" data-background-color="gold" data-color="#333">Gold</option>
         </select>
-        <input type="button" value="apply" class="button" id="applyTheme">
+        <input type="button" value="apply" class="button" id="apply-theme">
       </span>
-      <span class="theme funct">Theme</span>
-      <span class="hideHeader funct">Hide</span>
-    </div>
-    <div class="headerTop">
-      <a href="/">
-        <h1 class="brand-title h1">Thomas Brunner</h1>
-      </a>
-      <i class="fa fa-chevron-circle-down fa-2x navToggle"></i>
+
+      <div class="header__customise__controls">
+        <span class=" customise__controls customise__controls--theme">Theme</span>
+        <!-- <span class="controls__hide-header funct">Hide</span>   -->
+      </div>
+      
     </div>
 
-    <div class="headerToggle">
-      <div class="brand-tagline">
+
+    <div class="header__top">
+      <a href="/">
+        <h1 class="header__top__title h1">Thomas Brunner</h1>
+      </a>
+      <i class="fa fa-bars fa-2x nav-toggle"></i>
+    </div>
+
+
+    <div class="header__toggle">
+      <div class="header__tags">
         web developer (prospective) - management &amp; technology graduate - language enthusiast - vegetarian - traveller - minimalist
       </div>
 
-      <div class="navWrapper">
+      <div class="header__nav">
         <nav class="nav" role="navigation" >
-  <ul class="nav-list">
+  <ul class="nav__list">
   	
     
-    <li class="nav-item">
+    <li class="nav__item">
       <a  href="/index.html">Home</a>
     </li>
     
-    <li class="nav-item">
+    <li class="nav__item">
       <a  href="/blog.html">Blog</a>
     </li>
     
-    <li class="nav-item">
+    <li class="nav__item">
       <a  href="/portfolio.html">Portfolio</a>
     </li>
     
-    <li class="nav-item">
+    <li class="nav__item">
       <a  href="/cv.html">CV</a>
     </li>
     
-    <li class="nav-item">
+    <li class="nav__item">
       <a class="active" href="/about.html">About</a>
     </li>
     
-    <li class="nav-item">
+    <li class="nav__item">
       <a  href="/contact.html">Contact</a>
     </li>
     

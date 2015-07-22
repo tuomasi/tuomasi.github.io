@@ -1,8 +1,8 @@
 <nav class="nav" role="navigation" >
-  <ul class="nav-list">
+  <ul class="nav__list">
   	{% assign sorted_pages = site.pages | sort:"name" %}
     {% for p in sorted_pages %}
-    <li class="nav-item">
+    <li class="nav__item">
       <a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.linkName }}</a>
     </li>
     {% endfor %}
