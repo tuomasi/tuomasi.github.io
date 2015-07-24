@@ -20,8 +20,8 @@ $(function() {
 
   $(".nav-toggle").on("click", function(){
     $(".header__toggle").toggle();
-    $(this).toggleClass("fa-bars");
-    $(this).toggleClass("fa-times");
+    $(this).toggleClass("icon-menu");
+    $(this).toggleClass("icon-cancel");
   });
 
 

@@ -29,6 +29,9 @@
 .nav-toggle{
 	float: right
 }
+.nav-toggle:before{
+	font-size: 30px;
+}
 .nav-toggle:hover{
   cursor: pointer;
 	color: #f39c12;
