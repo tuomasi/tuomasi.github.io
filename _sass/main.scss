@@ -1,11 +1,138 @@
 :root {
-  --background-color: #ffffff;
-  --body-color: #000000;
-  --body-font: font-family: 'Roboto', sans-serif;
-
+    --font: "Roboto", sans-serif;
 }
+
+:root[theme="light"] {
+    --body-bg: #fafafa;
+    --body-color: #555;
+    --link-color-hover: #000;
+}
+
+:root[theme="dark"] {
+    --body-bg: #1c1c1c;
+    --body-color: #bbb;
+    --link-color-hover: #fff;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    font-family: var(--font);
+    background-color: var(--body-bg);
+}
+
 body {
-  background: var(--body-color);
-  color: var(--background-color);
-  font-family: var(--body-font);
+    padding: 0;
+    margin: 0;
+    background: var(--body-bg);
+    color: var(--body-color);
+    font-family: var(--font);
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.125rem solid;
+    padding: 0.25rem;
+    margin-bottom: 3rem;
+    line-height: 20px;
+}
+
+main {
+    padding: 0px 0.5rem;
+}
+
+.home-link {
+    font-weight: 100;
+}
+
+.container {
+    max-width: 36rem;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    transition: all 0.2s ease-in-out;
+    color: var(--link-color-hover);
+}
+
+.nav-container {
+    display: flex;
+}
+
+nav a:not(:last-child) {
+    margin-right: 10px;
+}
+
+main a,
+footer a {
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    padding: 0.25rem;
+    border-top: 1px solid var(--body-color);
+}
+
+:root[theme="light"] .theme-toggle .light {
+    display: none;
+}
+
+:root[theme="dark"] .theme-toggle .dark {
+    display: none;
+}
+
+.theme-toggle__btn {
+    color: #111111;
+    color: var(--element1, #111111);
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-radius: var(--radius);
+    box-shadow: var(--box-shadow);
+}
+
+.theme-toggle__btn svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: var(--body-color);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.5px;
+}
+
+.theme-toggle__btn:hover svg,
+.theme-toggle__btn:focus svg,
+.theme-toggle__btn:focus {
+    outline: none;
+    fill: var(--body-color);
+}
+
+@media (min-width: 767px) {
+    html {
+        font-size: 20px;
+    }
+
+    body {
+        padding: 2rem;
+    }
+
+    .site-header {
+        padding: 0px 0px 0.5rem 0px;
+    }
+
+    footer,
+    main {
+        padding: 0px;
+    }
 }
