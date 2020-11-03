@@ -27,6 +27,7 @@ body {
     background: var(--body-bg);
     color: var(--body-color);
     font-family: var(--font);
+    line-height: 1.5;
 }
 
 .site-header {
@@ -39,7 +40,7 @@ body {
 }
 
 main {
-    padding: 0px 0.5rem;
+    padding: 0px 0.25rem;
 }
 
 .home-link {
@@ -67,6 +68,15 @@ a:hover {
 
 nav a:not(:last-child) {
     margin-right: 10px;
+}
+
+.posts__post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-date {
+    font-size: 0.75rem;
 }
 
 main a,
@@ -99,6 +109,8 @@ footer {
     border: none;
     border-radius: var(--radius);
     box-shadow: var(--box-shadow);
+    padding: 0px;
+    margin-left: 10px;
 }
 
 .theme-toggle__btn svg {
@@ -113,9 +125,38 @@ footer {
 
 .theme-toggle__btn:hover svg,
 .theme-toggle__btn:focus svg,
-.theme-toggle__btn:focus {
+.theme-toggle__btn:focus,
+.theme-toggle_btn:active {
+    padding-right: 0px;
     outline: none;
     fill: var(--body-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -0.025rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.6rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
+
+hr {
+    margin: 3rem 0;
 }
 
 @media (min-width: 767px) {
@@ -131,8 +172,11 @@ footer {
         padding: 0px 0px 0.5rem 0px;
     }
 
-    footer,
     main {
         padding: 0px;
+    }
+
+    footer {
+        padding: 0.25rem 0 0;
     }
 }

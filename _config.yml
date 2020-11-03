@@ -1,3 +1,2 @@
-url: "http://thomasbrunner.xyz"
-baseurl: "" # the subpath of your site, e.g. /blog
+permalink: /blog/:year/:month/:day/:title
 title: "Thomas Brunner"

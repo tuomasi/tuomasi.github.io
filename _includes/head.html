@@ -10,6 +10,7 @@
         {% if page.title %} {{ page.title }} | {{ site.title}} {% else %} {{
         site.title }} {% endif %}
     </title>
+    {% include ga.html %}
     <script>
         if (
             localStorage.getItem("thomasbrunner.xyz.theme") === "dark" ||
