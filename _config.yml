@@ -1,2 +1,4 @@
 permalink: /blog/:year/:month/:day/:title
 title: "Thomas Brunner"
+description: "Thomas Brunner's web log"
+url: "https://thomasbrunner.xyz"

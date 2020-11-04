@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    {% seo %}
+    <link href="/feed.xml" rel="alternate" type="application/atom+xml" />
     <title>
         {% if page.title %} {{ page.title }} | {{ site.title}} {% else %} {{
         site.title }} {% endif %}
