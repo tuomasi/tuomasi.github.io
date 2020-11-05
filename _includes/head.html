@@ -1,18 +1,43 @@
 <head>
+    <meta charset="utf-8" />
+    <title>
+        {% if page.title %} {{ page.title }} | {{ site.title}} {% else %} {{
+        site.title }} {% endif %}
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content="Jekyll v3.9.0" />
+    <meta name="author" content="{{ site.author }}" />
+    <meta
+        name="description"
+        content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}"
+    />
+    <!-- OGP (https://ogp.me/) tags -->
+    <meta
+        property="og:title"
+        content="{% if page.title %} {{ page.title }} | {{ site.title}} {% else %} {{
+        site.title }} {% endif %}"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="en" />
+    <meta property="og:url" content="{{site.url}}{{page.url}}" />
+    <meta property="og:image" content="{{site.url}}/assets/favicon.ico" />
+    <meta
+        property="og:description"
+        content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}"
+    />
+    <meta property="og:site_name" content="{{site.title}}" />
+
+    <!-- Link tags -->
+    <link rel="canonical" href="{{site.url}}{{page.url}}" />
     <link
         href="https://fonts.googleapis.com/css2?family=Gudea:wght@400;700&display=swap"
         rel="stylesheet"
     />
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    {% seo %}
     <link href="/feed.xml" rel="alternate" type="application/atom+xml" />
-    <title>
-        {% if page.title %} {{ page.title }} | {{ site.title}} {% else %} {{
-        site.title }} {% endif %}
-    </title>
     <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+
+    <!-- Check for previous theme selection -->
     <script>
         if (
             localStorage.getItem("thomasbrunner.xyz.theme") === "dark" ||

@@ -1,4 +1,5 @@
 permalink: /blog/:year/:month/:day/:title
 title: "Thomas Brunner"
-description: "Thomas Brunner's web log"
+author: "Thomas Brunner"
+description: "Hi, my name is Thomas, and this web log is where I write about entrepreneurship, stoicism, mindfulness, parenting and other wildly unrelated topics."
 url: "https://thomasbrunner.xyz"
