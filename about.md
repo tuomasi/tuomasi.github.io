@@ -19,10 +19,10 @@ It's surprisingly hard to write a "good" about page, especially if it's your own
 -   2008: Graduated from high school (majors in English and French), began to work for a social rehabilitation centre as a civilian servant
 -   2009: One-month solo travel through Southeast Asia. Started studying Technology and Management at the Technical University Munich (TUM), also started to learn Mandarin
 -   2011: Semester abroad at Tsinghua University in Beijing
--   2012: Moved from Beijing to Singapore to reunite with my now-wife and work
+-   2012: Moved from Beijing to Singapore to reunite with my now-wife and to work
 -   2013: Graduated from TUM and started studying for a MSc in Computing and Information Technology in St Andrews, Scotland
 -   2014: Moved to Berlin to work as a web developer for [audibene](http://www.audibene.de)
--   2016: Co-founded Elohna, a payroll SaaS product for Swiss SME, together with [Marius](http://mariuskreis.de) and [Philipp](http://poxar.net) as co-founders and [Myke](https://angel.co/p/ymyke) and [Paul](https://io.squeng.com/) as business angels
+-   2016: Co-founded Elohna, a payroll SaaS product for Swiss SME, together with [Marius](https://www.linkedin.com/in/mariuskreis) and [Philipp](http://poxar.net) as co-founders and [Myke](https://angel.co/p/ymyke) and [Paul](https://io.squeng.com/) as business angels
 -   2017: Our first son was born; Elohna got acquired by [bexio](http://www.bexio.com)
 -   2018: Bexio got acquired by [Die Mobiliar](http://www.mobiliar.ch)
 -   2019: Moved back to Hof for more nature and less noise, started doing calisthenics
