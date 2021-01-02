@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/tuomasi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thomasbrunner.xyz
+  * I am tuomasi (https://keybase.io/tuomasi) on keybase.
+  * I have a public key with fingerprint 6E40 D5E7 1938 9E42 F742  248A 41A8 C353 A732 2892
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101eda2c82fa7f84b2e61fb42df235b629435a25d102992f40e982359928b1bea900a",
+      "fingerprint": "6e40d5e719389e42f742248a41a8c353a7322892",
+      "host": "keybase.io",
+      "key_id": "41a8c353a7322892",
+      "kid": "0101eda2c82fa7f84b2e61fb42df235b629435a25d102992f40e982359928b1bea900a",
+      "uid": "6b72acacce3f4bb203e9c9785c0a2019",
+      "username": "tuomasi"
+    },
+    "service": {
+      "hostname": "thomasbrunner.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1609613328,
+  "expire_in": 157680000,
+  "prev": "8bb7ccee45dc4f450440be26e3458dd317626677f549e94e25092bbac8f8ea4e",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJbSBVBGD5mF7Ui7U5h4hYoddTZ2dnbgYIegiDDQCsC9TSzO3tc1N3j
+XkwLyaQEj3YVKezBHiIwe8giqOxBIyOV6qEougjShcgyiiwh6DIr+dZj8zIz//99
+3//9P/+dhcmhtKQbK9d8ymgZ05JGBs76oejn/vQDHLH1ei5ygKuk0xet0qnrRStN
+nYtwgAc81THUFGhg2VAQgVTiDYKgbkBBJBJUkSBiKOo8gKoKDQSoqrAMeyuEJxSr
+AGAuzBmmFaNO3DEtj8lKFAFdpDKvCopKETRkBCFSMOKxogmigGUBQkWFjFhhuwGD
+mSPYpfmmzWLsE5229w/8f/btT8tJRIZYw5pGBQMRAoFAVU2VFVEDGAJeDYAudSxc
+TRna8+1q7JpcQ5hjwVpTo8Fcg0ZmABUBgDi+ZVEnv65+P+PHHduzNbuKpSs8L+5G
+ArpXHw/w+yiJ/lWKEtPS2SwZo5Y6rmlbXIRnSM0zA2leAqrECwJUwhyti5sOjZoB
+QpQlBbAT1KG1TFIhRGbtUCTqGjKQCBAChEKJCkhUdF3gZQlKkiwbIlKpiigUgQoJ
+wZpiKBQjygW91Vg2F2GVPBxjkq4Zs7DnO5RruN1fOjuUlBaaO2dWsGOhtNT0mc07
+93zeb7tofU4b3LqpQGsazDn56NtrsXH1957ixndG8rWE34vXMns1KShr9FBfV9P9
+NwMdnV0JvXzbLrCk7312blg/Y7U1hTYMl5QVtjxu3tKct3hFQ+GFaMGygqHtfO7g
+sZ97+3fC+V6RKY3xwwdTY6OF6/Iqk0vGW58ufVu2IJHR/DGl9cvFKOh81T7Wcv5l
+7PSJxIf88N1fBWULuy6/qMjauGgouzbcWL5q8gftk1P3EGniSoN7LFM/vDn/+KWr
+N7dMdvd0t+8rHux9cAbAOdnbVj/0D9/aND9r672skYwnRR3bdyd4IjQfzFw+Ne5/
+3cGXLpi6bvUczRxJ95OfTRw59QdYoTf3
+=nBaQ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tuomasi
+
+==================================================================
