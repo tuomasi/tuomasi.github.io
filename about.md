@@ -28,6 +28,14 @@ It's surprisingly hard to write a "good" about page, especially if it's your own
 -   2019: Moved back to Hof for more nature and less noise, started doing calisthenics
 -   2020: Got laid off and had to say goodbye to the product I helped build and to absolutely amazing colleagues
 
+<!-- ### Vegetarianism
+
+### Minimalism
+
+### Stoicism
+
+### Mindfulness -->
+
 ### About the site
 
 This site is hosted on [GitHub Pages](https://pages.github.com) and is powered by [Jekyll](https://jekyllrb.com/).
