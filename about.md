@@ -28,13 +28,21 @@ It's surprisingly hard to write a "good" about page, especially if it's your own
 -   2019: Moved back to Hof for more nature and less noise, started doing calisthenics
 -   2020: Got laid off and had to say goodbye to the product I helped build and to absolutely amazing colleagues
 
-<!-- ### Vegetarianism
+### Vegetarianism
+
+I have been a vegetarian ever since 2013, eating vegan on most days and aiming to be fully vegan at some point. It started out as an experiment, but a few weeks in I felt more awake, healthier and overall cleaner, and realised how foolish it was not to consider it much sooner and that I was placing my own uninformed dietary preferences above the well-being of other living beings, which as far as I know didn't ask to be born, just like the rest of us. By all accounts, our friend Pythagoras practised and preached a vegetarian (if not vegan) diet more than 2,000 years ago. We have virtual reality and self-driving cars, but many also still have the diet of our primeval forefathers, without going through any of the actual labour that goes into actually 'producing' the goods in question.
 
 ### Minimalism
 
+Owning too many things has dragged me down ever since my teens, but it took some time until I realised I can actually do something about it. Too much of anything strips away the joy of everything. Whenever I notice I own something I don't actively use, it goes. Whenever I notice somebody isn't doing me any good consistently, I go :)
+
 ### Stoicism
 
-### Mindfulness -->
+When I was reading Störig's [Kleine Weltgeschichte der Philosophie](https://www.fischerverlage.de/buch/hans-joachim-stoerig-kleine-weltgeschichte-der-philosophie-9783596144327) to get an introduction into the history of philosophy and read about stoicism, I could tell right away that the philosophy by which I have lived my life thus far sounded a lot like it. Wanting to learn more about stoicism, I read the classics of Seneca, Marcus Aurelius and Epictetus and was absolutely blown away by the sheer conciseness and precision with which they were able to express their thoughts. If you have never heard of stoicism or about its three main thinkers, do yourself a favour and change that - you will come out wiser and more mindful.
+
+### Mindfulness
+
+Always having been drawn to buddhism and being blessed with the joyous ability to experience stress rather intensely, it was only a matter of time until I would come across mindfulness. To get started I did the eight-week programme described in [Mindfulness: A practical guide to finding peace in a frantic world](http://franticworld.com/free-meditations-from-mindfulness/), and was absolutely amazed when I realised how much power my own thoughts have had over me for over 20 years and when I experienced the peace and oneness that listening to your own breath brings about.
 
 ### About the site
 
