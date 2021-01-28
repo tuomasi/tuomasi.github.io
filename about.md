@@ -5,7 +5,7 @@ title: "About"
 
 # About
 
-It's surprisingly hard to write a "good" about page, especially if it's your own. I am a big fan of good stories, and what is life if not a story? I am always intersted to hear about other people's lives, about their backgrounds, their struggles, their beliefs, their goals - in short, how they have become the person that they are today and who and what shaped them along the way. To live up to my own exepctations, I will try to give as thorough an insight into my life as anyone might care for.
+It's surprisingly hard to write a "good" about page, especially if it's your own. I am a big fan of good stories, and what is life if not a story? I am always intersted to hear about other people's lives, about their backgrounds, their struggles, their beliefs, their goals - in short, how they have become the person they are today and who and what shaped them along the way. To live up to my own expectations, I will try to give as thorough an insight into my life as anyone might care for.
 
 ### Life timeline
 
