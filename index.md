@@ -2,6 +2,8 @@
 layout: default
 ---
 
-# Welcome
+# Hi there
 
-This site is undergoing a ~~resurrection~~ redesign.
+I'm Thomas, an entrepreneurial software developer.
+
+Minimalist. Vegetarian. Stoic. Mindful. Pragmatic. Introvert.

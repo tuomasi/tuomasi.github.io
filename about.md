@@ -27,6 +27,7 @@ It's surprisingly hard to write a "good" about page, especially if it's your own
 -   2018: Bexio got acquired by [Die Mobiliar](http://www.mobiliar.ch)
 -   2019: Moved back to Hof for more nature and less noise, started doing calisthenics
 -   2020: Got laid off and had to say goodbye to the product I helped build and to absolutely amazing colleagues
+-   2021: Our daughter was born
 
 ### Vegetarianism
 
