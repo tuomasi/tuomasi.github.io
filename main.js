@@ -8,6 +8,10 @@ function toggleTheme(e) {
     }
 }
 
-document.querySelectorAll(".theme-toggle__btn").forEach(function (btn) {
-    btn.addEventListener("click", toggleTheme);
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('copyright-year').innerHTML = new Date().getFullYear();
+
+    document.querySelectorAll(".theme-toggle__btn").forEach(function (btn) {
+        btn.addEventListener("click", toggleTheme);
+    });
 });

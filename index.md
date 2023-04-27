@@ -4,6 +4,4 @@ layout: default
 
 # Hi there
 
-I'm Thomas, an entrepreneurial software developer.
-
-Minimalist. Vegetarian. Stoic. Mindful. Pragmatic. Introvert.
+Nice that you are here! I'm Thomas, and I currently work as senior software developer with [HipSquare](https://www.hipsquare.net/en).
